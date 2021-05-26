@@ -1,0 +1,85 @@
+
+100:199	1
+200:299	7
+300:399	2
+400:499	8
+500:599	51
+600:699	18
+700:799	11
+800:899	1
+900:999	3
+1000:1099	8
+1100:1199	3
+1200:1299	1
+1300:1399	1
+2200:2299	1
+2300:2399	1
+2500:2599	1
+3100:3199	1
+3200:3299	2
+4900:4999	1
+5000:5099	1
+5200:5299	1
+7500:7599	1
+9000:9099	1
+9600:9699	1
+11700:11799	1
+13900:13999	1
+24800:24899	1
+27900:27999	1
+29800:29899	1
+32500:32599	1
+33200:33299	1
+36100:36199	1
+40800:40899	1
+41500:41599	1
+42500:42599	1
+52100:52199	1
+55700:55799	1
+57300:57399	1
+65100:65199	1
+68200:68299	1
+79400:79499	1
+83800:83899	1
+88400:88499	1
+89300:89399	1
+95800:95899	1
+96300:96399	1
+106400:106499	1
+118300:118399	1
+126800:126899	1
+133400:133499	1
+133600:133699	1
+146400:146499	1
+149300:149399	1
+176300:176399	1
+177500:177599	1
+179000:179099	1
+202500:202599	1
+203900:203999	1
+204900:204999	1
+211300:211399	1
+222500:222599	1
+225100:225199	1
+266300:266399	1
+398300:398399	1
+
+Total length of sequence:	4681107 bp
+Total number of contigs:	167
+Max sequence length:	398301
+Min sequence length:	108
+
+N25 stats:			25% of total sequence length is contained in the 5 sequences >= 211394 bp
+N50 stats:			50% of total sequence length is contained in the 11 sequences >= 176396 bp
+N75 stats:			75% of total sequence length is contained in the 20 sequences >= 95861 bp
+N90 stats:			90% of total sequence length is contained in the 29 sequences >= 52131 bp
+
+*NG Stats using genome length of 4681107.
+NG25 stats:			25% of total genome length is contained in the 5 sequences >= 211394 bp
+NG50 stats:			50% of total genome length is contained in the 11 sequences >= 176396 bp
+NG75 stats:			75% of total genome length is contained in the 20 sequences >= 95861 bp
+NG90 stats:			90% of total genome length is contained in the 29 sequences >= 52131 bp
+
+Total GC count:			2377943 bp
+GC %:				50.80 %
+* Without a reference genome we estimate the size using the assembled length.

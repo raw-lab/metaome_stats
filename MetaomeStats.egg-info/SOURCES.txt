@@ -1,0 +1,7 @@
+README.md
+setup.py
+MetaomeStats.egg-info/PKG-INFO
+MetaomeStats.egg-info/SOURCES.txt
+MetaomeStats.egg-info/dependency_links.txt
+MetaomeStats.egg-info/top_level.txt
+countAssembly/bin/countAssembly.py
