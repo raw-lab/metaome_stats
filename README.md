@@ -1,4 +1,4 @@
-# Metaome Stats: scripts for calculating statistics from FASTA sequences
+# Metaome Stats: Calculating denovo assembly statistics from metaomes 
 
 ================================================
 
