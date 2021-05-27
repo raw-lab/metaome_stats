@@ -54,8 +54,7 @@ optional arguments:
 
 If you are publishing results obtained using Metaome Stats, please cite: 
 
-CONTACT
-
+## CONTACT
 -------
 The informatics point-of-contact for this project is [Dr. Richard Allen White III](https://github.com/raw-lab).<br />
 If you have any questions or feedback, please feel free to get in touch by email. <br />
