@@ -4,10 +4,10 @@
 
 ## Installing
 
-- pip installation
+- pip installation <br /> 
 `pip install MetaomeStats`
 
-- conda installation
+- conda installation <br /> 
 `conda install -c bioconda MetaomeStats`
 
 - source (github)
