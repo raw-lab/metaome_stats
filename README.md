@@ -14,7 +14,7 @@
 
 ```bash
 git clone https://github.com/raw-lab/metaome_stats
-cd rhea
+cd metaome_stats
 python setup.py
 ```
 
