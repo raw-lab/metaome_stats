@@ -1,20 +1,20 @@
-# Metaome Stats: scripts for calculating statistics from FASTA sequences
+# Metaome Stats: Calculating denovo assembly statistics from metaomes 
 
 ================================================
 
 ## Installing
 
-- pip installation
+- pip installation <br /> 
 `pip install MetaomeStats`
 
-- conda installation
+- conda installation <br /> 
 `conda install -c bioconda MetaomeStats`
 
 - source (github)
 
 ```bash
 git clone https://github.com/raw-lab/metaome_stats
-cd rhea
+cd metaome_stats
 python setup.py
 ```
 
@@ -54,8 +54,7 @@ optional arguments:
 
 If you are publishing results obtained using Metaome Stats, please cite: 
 
-CONTACT
-
+## CONTACT
 -------
 The informatics point-of-contact for this project is [Dr. Richard Allen White III](https://github.com/raw-lab).<br />
 If you have any questions or feedback, please feel free to get in touch by email. <br />
