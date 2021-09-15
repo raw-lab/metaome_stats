@@ -1,7 +1,14 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""countAssembly.py: gathers some stats on assembled FASTA file
+"""countAssembly.py: gathers stats on assembled FASTA files
 """
+
+__author__ = "Richard Alan White III, Jose Figueroa"
+__copyright__ = "Copyright 2021"
+__version__ = "0.3"
+__maintainer__ = "Jose Figueroa"
+__email__ = "jlfiguer@uncc.edu"
+__status__ = "Production"
 
 import os
 import argparse
@@ -9,6 +16,7 @@ import re
 import math
 
 
+# Global variables
 FILE_EXT = [".fasta", ".fa", ".fna", ".ffn"]
 
 
@@ -40,7 +48,7 @@ def countFasta(assembly, interval, genomeSize):
     elif os.path.isdir(assembly):
         files = [os.path.join(assembly, f) for f in os.listdir(assembly) if os.path.splitext(f)[1] in FILE_EXT]
     else:
-        print("Not a falid fasta file or directory")
+        print("Not a valid fasta file or directory")
         return
 
     numSeq = 0
@@ -83,27 +91,33 @@ def countFasta(assembly, interval, genomeSize):
     minSeq = seqLengths[-1]
     
     # N Stats
+    L25 = 0
+    N25 = 0
     frac_covered = totalLength = sum(seqLengths)
-    L25 = L50 = L75 = L90 = 0
-    N25 = N50 = N75 = N90 = 0
     while frac_covered > totalLength*0.75:
         N25 = seqLengths[L25]
         L25 += 1
         frac_covered -= N25
 
-    L50 = L25
+    L50 = 0
+    N50 = 0
+    frac_covered = totalLength = sum(seqLengths)
     while frac_covered > totalLength*0.5:
         N50 = seqLengths[L50]
         L50 += 1
         frac_covered -= N50
     
-    L75 = L50
+    L75 = 0
+    N75 = 0
+    frac_covered = totalLength = sum(seqLengths)
     while frac_covered > totalLength*.25:
         N75 = seqLengths[L75]
         L75 += 1
         frac_covered -= N75
     
-    L90 = L75
+    L90 = 0
+    N90 = 0
+    frac_covered = totalLength = sum(seqLengths)
     while frac_covered > totalLength*.1:
         N90 = seqLengths[L90]
         L90 += 1
@@ -112,27 +126,33 @@ def countFasta(assembly, interval, genomeSize):
     # NG Stats
     if genomeSize is None:
         genomeSize = totalLength
+    LG25 = 0
+    NG25 = 0
     frac_covered = genomeSize
-    LG25 = LG50 = LG75 = LG90 = 0
-    NG25 = NG50 = NG75 = NG90 = 0
     while frac_covered > genomeSize*0.75:
         NG25 = seqLengths[LG25]
         LG25 += 1
         frac_covered -= NG25
 
-    LG50 = LG25
+    LG50 = 0
+    NG50 = 0
+    frac_covered = genomeSize
     while frac_covered > genomeSize*0.5:
         NG50 = seqLengths[LG50]
         LG50 += 1
         frac_covered -= NG50
     
-    LG75 = LG50
+    LG75 = 0
+    NG75 = 0
+    frac_covered = genomeSize
     while frac_covered > genomeSize*.25:
         NG75 = seqLengths[LG75]
         LG75 += 1
         frac_covered -= NG75
     
-    LG90 = LG75
+    LG90 = 0
+    NG90 = 0
+    frac_covered = genomeSize
     while frac_covered > genomeSize*.1:
         NG90 = seqLengths[LG90]
         LG90 += 1
