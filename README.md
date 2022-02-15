@@ -27,7 +27,8 @@ countAssembly.py -i 100 --fasta ecoli_Miseq_Assembly.fa
 ```
 
 Main options:
-```
+
+```bash
 usage: countAssembly.py -i INTERVAL -f FASTA [-r REF] [-s SIZE] [-h]
 
 required arguments:
@@ -52,12 +53,13 @@ optional arguments:
 
 ## Citing Metaome Stats
 
-If you are publishing results obtained using Metaome Stats, please cite: 
+If you are publishing results obtained using Metaome Stats, please cite:
 
 ## CONTACT
+
 -------
-The informatics point-of-contact for this project is [Dr. Richard Allen White III](https://github.com/raw-lab).<br />
-If you have any questions or feedback, please feel free to get in touch by email. <br />
-Dr. Richard Allen White III - rwhit101@uncc.edu.  <br />
-Jose Figueroa - jlfiguer@uncc.edu.  <br /> 
+The informatics point-of-contact for this project is [Dr. Richard Allen White III](https://github.com/raw-lab).  
+If you have any questions or feedback, please feel free to get in touch by email.  
+Dr. Richard Allen White III - rwhit101@uncc.edu.  
+Jose Figueroa - jlfiguer@uncc.edu.  
 Or [open an issue](https://github.com/raw-lab/metaome_stats/issues).
