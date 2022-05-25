@@ -3,7 +3,7 @@
 """countAssembly.py: gathers stats on assembled FASTA files
 """
 
-__author__ = "Richard Alan White III, Jose Figueroa"
+__author__ = "Richard Allen White III, Jose Figueroa"
 __copyright__ = "Copyright 2021"
 __version__ = "0.3"
 __maintainer__ = "Jose Figueroa"
